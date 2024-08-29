@@ -1,0 +1,43 @@
+.testimonials-one__carousel {
+    background-color: #000000;
+    padding: 50px 0;
+  }
+  
+  .thm-owl__carousel .item-custom {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .thm-owl__carousel .testimonial {
+    font-style: italic;
+    color: #333;
+  }
+  
+  .thm-owl__carousel .testimonial h4 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #555;
+  }
+  .icon-arrow-left::before {
+    content: '\f053'; /* Replace with the appropriate icon code */
+    font-family: 'FontAwesome'; /* Replace with your icon font family */
+  }
+  
+  .icon-arrow-right::before {
+    content: '\f054'; /* Replace with the appropriate icon code */
+    font-family: 'FontAwesome'; /* Replace with your icon font family */
+  }
+  
+  .owl-nav .owl-prev,
+  .owl-nav .owl-next {
+    background: none; /* Customize button appearance */
+    border: none;
+  }
+  
+  .owl-nav .owl-prev {
+    left: 10px; /* Position the left button */
+  }
+  
+  .owl-nav .owl-next {
+    right: 10px; /* Position the right button */
+  }
