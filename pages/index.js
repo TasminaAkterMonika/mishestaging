@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 import React from "react";
 import Scripts from "@/components/Scripts";
 const inter = Inter({ subsets: ["latin"] });
-import TestimonialsCarousel from "@/components/TestimonialsCarousel"
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 export default function Home() {
   return (
     <>
@@ -33,11 +33,8 @@ export default function Home() {
                     <div className="sidebar-info-contents">
                       <div className="content-inner">
                         <div className="logo">
-                          <a href="index.html">
-                            <img
-                              src="assets/images/Mishael.png"
-                              alt=""
-                            />
+                          <a href="#">
+                            <img src="assets/images/Mishael.png" alt="" />
                           </a>
                         </div>
                         <div className="content-box">
@@ -161,7 +158,7 @@ export default function Home() {
                       <div className="main-menu__wrapper-inner">
                         <div className="main-header-two__left">
                           <div className="logo-box-one">
-                            <a href="index.html">
+                            <a href="#">
                               <img
                                 src="assets/images/Mishael.png"
                                 alt="Awesome Logo"
@@ -176,17 +173,17 @@ export default function Home() {
                           </a>
                           <ul className="main-menu__list">
                             <li>
-                              <a href="index.html">Home</a>
+                              <a href="#">Home</a>
                             </li>
 
                             <li>
-                              <a href="about.html">About</a>
+                              <a href="#">About</a>
                             </li>
                             <li>
-                              <a href="about.html">Products</a>
+                              <a href="#">Products</a>
                             </li>
                             <li>
-                              <a href="contact.html">Contact</a>
+                              <a href="#">Contact</a>
                             </li>
                           </ul>
                         </div>
@@ -319,12 +316,15 @@ export default function Home() {
                 <div className="brand-one__inner">
                   <ul>
                     <li>
-                      {/*<a href="#">
-                    
-                      <img src="assets/images/Mas AI File-01 (1) 1 (1).png" alt="Brand Logo" className="logo-text" />*/}
-
                       <a href="#">
-                        <h1 className="logo-text">MAS</h1>
+                        <img
+                          src="assets/images/Mas.png"
+                          alt="Brand Logo"
+                          className="logo-text"
+                        />
+
+                        {/*<a href="#">
+                        <h1 className="logo-text">MAS</h1>*/}
                       </a>
                     </li>
                     <li>
@@ -866,7 +866,7 @@ export default function Home() {
             {/*End Gallery One */}
 
             {/*Start Testimonials One */}
-         
+
             <section className="testimonials-one">
               <div className="container">
                 <div className="testimonials-one__top">
@@ -889,13 +889,9 @@ export default function Home() {
                 </div>
                 <div className="row">
                   <div className="col-xl-12">
-                  <div>
-  
-      <TestimonialsCarousel />
-    </div>
-
-
-
+                    <div>
+                      <TestimonialsCarousel />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1069,7 +1065,7 @@ export default function Home() {
                             <p>Send email</p>
                             <h3>
                               <a href="mailto:yourmail@email.com">
-                               mishael@company.com
+                                mishael@company.com
                               </a>
                             </h3>
                           </div>
@@ -1206,7 +1202,6 @@ export default function Home() {
           </div>
         </>
       </main>
-       
 
       <Scripts />
     </>

@@ -23,15 +23,18 @@ p {
   text-align: center;
 }
 .brand-one__inner ul li {
-    padding-right: 168px;
-    margin-left: 170px;
+  padding-right: 168px;
+  margin-left: 170px;
 }
 
-@media only screen and (max-width: 767px){
-    .brand-one__inner ul li {
-        position: relative;
-        display: inline-block;
-        padding-right: 14px;
-        margin-left: 11px;
-    }
+@media only screen and (max-width: 767px) {
+  .brand-one__inner ul li {
+    position: relative;
+    display: inline-block;
+    padding-right: 14px;
+    margin-left: 11px;
+  }
+}
+.main-header-two__left {
+  padding-left: 63px;
 }
